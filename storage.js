@@ -1,9 +1,9 @@
 const handleAddToStorage = () =>{
     const name = document.getElementById("name").value;
     // localStorage.setItem(name);
-    const id = document.getElementById("id").value;
-    const data = {id , name}
-    localStorage.setItem( id, JSON.stringify(data))
+    const email = document.getElementById("email").value;
+    const data = {email, name}
+    localStorage.setItem( email, JSON.stringify(data))
 
 }
 const storeItem = localStorage.getItem("1234");
