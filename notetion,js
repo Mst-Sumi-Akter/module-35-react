@@ -1,0 +1,13 @@
+const person = {
+    name : 'sumi',
+    age : 22,
+    country : 'bangladesh',
+    friends : ['nipa','mimi','moon'],
+    family : {
+        fatherName : "alom",
+        mothersName : "asma"
+    }
+}
+
+const findName = person.name  //dot notation
+// const findName = person["name"] //bracket notation
